@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hunwi\\Desktop\\Design_Pattern_Againe\\Design_Pattern_Againe\\Design_Pattern_Againe.csproj",
+      "projectUniqueName": "C:\\Users\\hunwi\\Desktop\\Design_Pattern_Again\\Design_Pattern_Againe\\Design_Pattern_Againe.csproj",
       "projectName": "Design_Pattern_Againe",
-      "projectPath": "C:\\Users\\hunwi\\Desktop\\Design_Pattern_Againe\\Design_Pattern_Againe\\Design_Pattern_Againe.csproj",
+      "projectPath": "C:\\Users\\hunwi\\Desktop\\Design_Pattern_Again\\Design_Pattern_Againe\\Design_Pattern_Againe.csproj",
       "packagesPath": "C:\\Users\\hunwi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hunwi\\Desktop\\Design_Pattern_Againe\\Design_Pattern_Againe\\obj\\",
+      "outputPath": "C:\\Users\\hunwi\\Desktop\\Design_Pattern_Again\\Design_Pattern_Againe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
