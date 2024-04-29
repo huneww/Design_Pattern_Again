@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public interface ISubject
+public interface MyISubject
 {
     abstract void Action();
 }
 
-public class RealSubject : ISubject
+public class RealSubject : MyISubject
 {
     public void Action()
     {
@@ -18,7 +18,7 @@ public class RealSubject : ISubject
 }
 
 // 기본적인 프록시 패턴
-public class Normal_Proxy : ISubject
+public class Normal_Proxy : MyISubject
 {
     // 수행할 원본 작업
     RealSubject original;
@@ -38,7 +38,7 @@ public class Normal_Proxy : ISubject
 // 지연 초기화 방식
 // 가끔 필요하지만 항상 적재되어 있는 무거운 객체
 // 구현시 자원 소모가 많이 되지만 자주 필요하지 않은 객채
-public class Virtual_Proxy : ISubject
+public class Virtual_Proxy : MyISubject
 {
     private RealSubject original;
      
@@ -56,7 +56,7 @@ public class Virtual_Proxy : ISubject
 
 // 대상 객체에 대한 엑세스 제한
 // 특정 클라이언트만 접근할수 있도록 설정
-public class Protection_Proxy : ISubject
+public class Protection_Proxy : MyISubject
 {
     private RealSubject subject;
     bool access;
@@ -78,7 +78,7 @@ public class Protection_Proxy : ISubject
 }
 
 // 대상 객체에 대한 로깅을 추가
-public class Logging_Proxy : ISubject
+public class Logging_Proxy : MyISubject
 {
     private RealSubject subject;
 
